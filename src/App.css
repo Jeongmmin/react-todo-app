@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
     background-color: aliceblue;
 }
     
@@ -17,4 +17,4 @@ body {
     background-color: #fff;
     border-radius: 30px;
     box-shadow: -9px 17px 14px rgb(0 0 0 / 16%);
-}
+} */
