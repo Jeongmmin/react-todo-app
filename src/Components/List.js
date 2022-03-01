@@ -1,15 +1,14 @@
 import React from 'react';
 
-const List = (
+const List = React.memo((
+
     {
-        id, title, completed, todoData, setTodoData, provided, snapshot
+        id, title, completed, todoData, setTodoData, provided, snapshot, handleClick
       }) => {
 
-  const handleClick = (id) => {
-    let newTodoData = todoData.filter((data) => data.id !== id)
-        // console.log('newTodoData', newTodoData);
-        setTodoData(newTodoData)
-    };
+      console.log("List is Rendering");    
+
+  
 
   const handleCompleteChange = (id) => {
       let newTodoData = todoData.map((data) => {
@@ -51,6 +50,6 @@ const List = (
     </div>
   </div>
   )
-}
+});
 
 export default List
