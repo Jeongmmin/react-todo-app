@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Lists from "./Components/Lists";
 import Form from "./Components/Form"
+import "./App.css"
 
 
 export default function App() {
@@ -47,6 +48,10 @@ export default function App() {
           <div className="title">
             <h1>할 일 목록</h1>
           </div>
+
+          <h1 class="text-3xl font-bold underline">
+            Hello world!
+          </h1>
 
           <Lists todoData={todoData} setTodoData={setTodoData}/>
 
