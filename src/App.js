@@ -45,12 +45,18 @@ export default function App() {
     setValue("");
   }; 
 
+  // 모두 지우기 버튼 함수
+  const handleRemoveClick = () => {
+    setTodoData([]);
+  };
+
 
     return (
       <div className="flex items-center justify-center w-screen h-screen bg-pink-100">
-        <div className="w-full p-6 m-4 bg-white rounded shadow lg:w-3/4 lg:max-w-lg">
-          <div className="flex justify-between mb-3">
-            <h1>할 일 목록</h1>
+        <div className="w-full p-10 m-4 bg-white rounded shadow-2xl lg:w-3/4 lg:max-w-lg">
+          <div className="flex justify-between mb-10">
+            <h1 className="text-4xl font-bold text-gray-700">Todo List</h1>
+            <button onClick={handleRemoveClick} className="px-2 py-2 bg-violet-400 rounded-full text-white hover:bg-violet-500 hover:text-white shadow-lg">delete all</button>
           </div>
 
           <Lists handleClick={handleClick} todoData={todoData} setTodoData={setTodoData}/>
