@@ -62,7 +62,7 @@ const List = React.memo(
           </div>
           <div>
             <button
-              className="px-4 py-2 float-right"
+              className="px-4 py-1 float-right text-xl font-bold "
               onClick={() => setIsEditing(false)}
             >
               ↺
@@ -72,7 +72,7 @@ const List = React.memo(
               className="px-4 py-2 float-right"
               onClick={handleSubmit}
             >
-              save
+              💾
             </button>
           </div>
         </div>
@@ -101,16 +101,16 @@ const List = React.memo(
           </div>
           <div>
             <button
-              className="px-4 py-2 float-right"
+              className="px-2 py-2 float-right"
               onClick={() => handleClick(id)}
             >
-              X
+              ✖
             </button>
             <button
               className="px-4 py-2 float-right"
               onClick={() => setIsEditing(true)}
             >
-              edit
+              ✏
             </button>
           </div>
         </div>
