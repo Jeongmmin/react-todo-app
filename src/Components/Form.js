@@ -19,7 +19,7 @@ export default function Form({ handleSubmit, value, setValue }) {
                 placeholder= "해야 할 일을 입력하세요."
                 value={value}
                 onChange={handleChange}
-                // autoComplete="off"
+                autoComplete="off"
                 />
                 <input 
                 type="submit"

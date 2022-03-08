@@ -3,17 +3,17 @@ import Lists from "./Components/Lists";
 import Form from "./Components/Form";
 import "./App.css";
 
-
 export default function App() {
-    
   console.log("App is Rendering");
-  
+
+  //  localStorage에 저장된 정보 받아오기
   const [todoData, setTodoData] = useState(
-    ()=> JSON.parse(window.localStorage.getItem("todoData"))||[]
+    () => JSON.parse(window.localStorage.getItem("todoData")) || []
   );
 
-  useEffect(()=>{
-    window.localStorage.setItem("todoData",JSON.stringify(todoData));
+  // localStorage에 정보저장
+  useEffect(() => {
+    window.localStorage.setItem("todoData", JSON.stringify(todoData));
   }, [todoData]);
 
   const [value, setValue] = useState("");
@@ -21,11 +21,10 @@ export default function App() {
   const handleClick = useCallback(
     (id) => {
       let newTodoData = todoData.filter((data) => data.id !== id);
-        setTodoData(newTodoData);
+      setTodoData(newTodoData);
     },
     [todoData]
-    );
-    
+  );
 
   const handleSubmit = (e) => {
     // form 안에 input을 전송할 떄 페이지 리로드 되는 것을 막아준다.
