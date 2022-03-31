@@ -9,7 +9,7 @@ const Lists = React.memo(({ todoData, setTodoData, handleClick }) => {
   console.log("Lists is Rendering");
 
   const handleEnd = (result) => {
-    // result 매개변수에는 source 항목 및 대상 위치와 같은 드래그 입벤트에 대한 정보가 포함됩니다.
+    // result 매개변수에는 source 항목 및 대상 위치와 같은 드래그 이벤트에 대한 정보가 포함됩니다.
     console.log("result", result);
 
     // 목적지가 없으면(이벤트 취소)이 함수를 종료합니다.
