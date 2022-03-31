@@ -16,6 +16,7 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
 
    [🔗 jm-todo](https://jm-todo.netlify.app/)
  
+  (ctrl + click 시 새창으로 열기)
   
 </div>
 
