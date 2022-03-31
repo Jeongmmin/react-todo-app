@@ -1,7 +1,7 @@
-# ⏱ React Todo App
+# ✅ React Todo App
   
 > React로 구현한 Todo App입니다.
-할 일 목록을 추가, 삭제, 수정할 수 있으며 새로고침을 하더라도 기존의 데이터가 LocalStorage에 stirng형태로 남아있을 수 있도록 설정했습니다.<br/>
+할 일 목록을 추가, 삭제, 수정할 수 있으며 새로고침을 하더라도 기존의 데이터가<br/> LocalStorage에 stirng형태로 남아있을 수 있도록 설정했습니다.<br/>
 Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하여 Drag로 순서를 바꿀 수 있도록 구현하였습니다.
 
 <br/>
@@ -14,7 +14,7 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
   💡 사이트 이동하기 💡  
   
 
-<!--    [🔗 react-todo-app](https://project-vue-movie.netlify.app) -->
+   [🔗 jm-todo](https://jm-todo.netlify.app/)
  
   
 </div>
@@ -46,29 +46,33 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
 
 ## ⚠ Installation
 
-<!-- ### **Project setup**
+### **앱 실행**
+
+```
+"npm run start"
+```
+
+### **배포**
 
 ```jsx
-npm install
+"npm run build"
 ```
 
-### **Compiles and hot-reloads for development**
-
-```
-npm run start
-```
-
-### **Compiles and minifies for production**
+### Tailwindcss
 
 ```jsx
-npm run build
+"autoprefixer": "^10.4.2",
+"postcss": "^8.4.7",
+"tailwindcss": "^3.0.23"
 ```
 
-### Sass-loader
+### react-beautiful-dnd
 
 ```jsx
-sass-loader@10.0.5 node-sass
-``` -->
+"react-beautiful-dnd": "^13.1.0"
+```
+
+
 
 <br/>
 <br/>
