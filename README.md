@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+## ⏱ React Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> React로 구현한 Todo App입니다.
+할 일 목록을 추가, 삭제, 수정할 수 있으며 새로고침을 하더라도 기존의 데이터가 LocalStorage에 stirng형태로 남아있을 수 있도록 설정했습니다.<br/>
+Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하여 Drag로 순서를 바꿀 수 있도록 구현하였습니다.
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## 📌 배포 사이트
+<div align="center">   
+    
+    
+  💡 사이트 이동하기 💡  
+  
 
-### `npm start`
+<!--    [🔗 react-todo-app](https://project-vue-movie.netlify.app) -->
+     
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 
 
-### `npm test`
+## 📝 Skill & Preview
+<br/>
+<br/>
+<p align="center">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=Netlify&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/react beautiful dnd-14CC80?style=flat-square&logo=Bitdefender&logoColor=white"/> &nbsp 
+<br/>
+<br/>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/82005305/156791554-2a6b9232-251c-46d9-b93a-7dfe158be7ba.gif">
+</p> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚠ Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- ### **Project setup**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```jsx
+npm install
+```
 
-### `npm run eject`
+### **Compiles and hot-reloads for development**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm run start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Compiles and minifies for production**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```jsx
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Sass-loader
 
-## Learn More
+```jsx
+sass-loader@10.0.5 node-sass
+``` -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔍 기능설명
 
-### Code Splitting
+### 할 일 목록 입력
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 사용자가 입력창에 데이터를 입력하고 Enter를 누르거나 ➕ 버튼을 누르면 목록창에 데이터가 표시되면서 입력창은 비어있는 상태로 대기하게 됩니다.
 
-### Analyzing the Bundle Size
+### 목록 수정, 삭제
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- 수정
+  - ✏ 버튼 → 목록을 수정할 수 있음 / 영화의 개봉일, 상영시간, 제목, 출연자. 감독, 별점, 영화사 등의 정보가 나온다
+  - 💾 버튼 → 수정된 목록을 저장
+  - ↺ 버튼 → 수정 전 상태로 되돌리기
+- 삭제
+  - ✖ 버튼 → 선택한 목록 하나를 삭제
+  - delete All 버튼 → 전체 목록을 삭제 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Drag
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 목록 위에 마우스를 올리면 pointer모양으로 변하게 됨, 목록을 Drag해서 순서를 바꿀 수 있음
