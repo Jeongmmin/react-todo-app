@@ -28,8 +28,6 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
 <br/>
 <br/>
 <p align="center">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/> &nbsp
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/> &nbsp
 <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white"/> &nbsp 
 <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=Netlify&logoColor=white"/> &nbsp 
@@ -79,22 +77,22 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
 
 ## 🔍 기능설명
 
-### 할 일 목록 입력
+### 1. 할 일 목록 입력
 
 - 사용자가 입력창에 데이터를 입력하고 Enter를 누르거나 ➕ 버튼을 누르면 목록창에 데이터가 표시되면서 입력창은 비어있는 상태로 대기하게 됩니다.
 
-### 목록 수정
+### 2. 목록 수정
 
 - ✏ 버튼 → 목록을 수정할 수 있음 / 영화의 개봉일, 상영시간, 제목, 출연자. 감독, 별점, 영화사 등의 정보가 나온다
 - 💾 버튼 → 수정된 목록을 저장
 - ↺ 버튼 → 수정 전 상태로 되돌리기
  
 
-### 목록 삭제
+### 3. 목록 삭제
 
 - ✖ 버튼 → 선택한 목록 하나를 삭제
 - delete All 버튼 → 전체 목록을 삭제 
 
-### Drag
+### 4. Drag
 
 - 목록 위에 마우스를 올리면 pointer모양으로 변하게 됨, 목록을 Drag해서 순서를 바꿀 수 있음
