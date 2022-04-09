@@ -9,14 +9,14 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
 
 ## 📌 배포 사이트
 <div align="center">   
+<br/>    
     
-    
-  💡 사이트 이동하기 💡  
+💡 사이트 이동하기 💡  
   
 
-   [🔗 jm-todo](https://jm-todo.netlify.app/)
+[🔗 jm-todo](https://jm-todo.netlify.app/)
  
-  (ctrl + click 시 새창으로 열기)
+(ctrl + click 시 새창으로 열기)
   
 </div>
 
