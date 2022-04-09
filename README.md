@@ -1,11 +1,12 @@
 # ✅ React Todo App
-  
 > React로 구현한 Todo App입니다.
 할 일 목록을 추가, 삭제, 수정할 수 있으며 새로고침을 하더라도 기존의 데이터가<br/> LocalStorage에 stirng형태로 남아있을 수 있도록 설정했습니다.<br/>
 Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하여 Drag로 순서를 바꿀 수 있도록 구현하였습니다.
 
 <br/>
 <br/>
+
+
 
 ## 📌 배포 사이트
 <div align="center">   
@@ -22,16 +23,24 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
 
 <br/>
 <br/>
- 
+
+
+## 📅 프로젝트 기간
+<br/>    
+
+> **2022.02.28 - 2022.03.04**
+
+<br/>
+<br/>
 
 ## 📝 Skill & Preview
 <br/>
 <br/>
 <p align="center">
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/> &nbsp
-<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white"/> &nbsp 
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=Netlify&logoColor=white"/> &nbsp 
-<img src="https://img.shields.io/badge/React beautiful dnd-14CC80?style=for-the-badge&logo=Bitdefender&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> &nbsp
+<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=Netlify&logoColor=white"/> &nbsp 
+<img src="https://img.shields.io/badge/React beautiful dnd-14CC80?style=flat-square&logo=Bitdefender&logoColor=white"/> &nbsp 
 <br/>
 <br/>
 <p align="center">
