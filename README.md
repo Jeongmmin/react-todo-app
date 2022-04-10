@@ -10,14 +10,17 @@ Tailwind CSS를 사용하여 UI를 꾸미고, React-beautiful-dnd 를 사용하�
 
 ## 📌 배포 사이트
 <div align="center">   
-<br/>    
-    
-💡 사이트 이동하기 💡  
+<br/>
+💡 사이트 이동하기 💡        
+<br/>
+<br/>
+<a href="https://jm-todo.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/ jm todo 앱-ffb0da?style=flat-square&logo=Mastodon&logoColor=white"/></a>
+<br/>
+<br/>
+(ctrl + click시 새창열기 가능)  
   
 
-[🔗 jm-todo](https://jm-todo.netlify.app/)
- 
-(ctrl + click 시 새창으로 열기)
+<!-- [🔗 jm-todo](https://jm-todo.netlify.app/) -->
   
 </div>
 
